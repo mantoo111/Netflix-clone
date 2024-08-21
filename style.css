@@ -18,7 +18,7 @@ body{
 .main .box{
     height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0;
@@ -44,7 +44,7 @@ nav button{
 .hero{
     font-family: 'Martel Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,19 +52,57 @@ nav button{
     color: white;
     position: relative;
     gap: 23px;
+    padding: 30px;
 
 
 }
 .hero >:first-child{
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
 }
 .hero >:nth-child(2){
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 .hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
+.seperation{
+    height: 7px;
+    background-color: rgb(90, 87, 87);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bolder;
+    background-color: white;
+}
+.btn-red{
+background-color: red;
+color: white;
+padding: 3px 24px;
+font-size: 20px;
+border-radius: 4px;
 
+}
+.her-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+font-size: 12px;
+border-radius: 4px;
+background-color: rgba(23,23,0.7);
+font-weight:900;
+border:1px solid rgb(246, 238, 238,0.5);
+}
+.btn-red-sm{
+background-color: red;
+color: white;
+}
